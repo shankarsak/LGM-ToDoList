@@ -1,0 +1,122 @@
+* {
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.heading{
+    display: flex;
+    justify-content: center;  
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: xx-large;
+    color: #4b1010;
+    text-shadow: 2px 5px 20px;
+    background:teal;
+    border-bottom: 5px double lightseagreen;
+    border-top: 5px double lightseagreen;
+}
+img{
+    width: 50px;
+    height: 55px;
+}
+.container{
+    margin: 90px 5% 5% 10%;
+    width: 80%;
+    background: transparent;
+    border-radius: 10px;
+    border: 5px double lightseagreen;
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: teal;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    border: 2px solid #d1d3d4;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    right: 2%;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #0a53a7ba;
+    border: none;
+    color: #ffffbb;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+}
+#newtask button:hover{
+    background-color: #0d75ec;
+    color: #555;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.task{
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c5e1e6;
+    width: 80%;
+    margin-bottom: 12px;
+    margin-left: 10%;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: teal;
+    margin: 5px 5px;
+}
+.task button{
+    cursor: pointer;
+    height: 100%;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    color: teal;
+    font-size:1.5rem;
+}
+.task button:hover{
+    color: #0d75ec;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
