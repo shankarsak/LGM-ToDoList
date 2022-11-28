@@ -14,6 +14,7 @@ document.querySelector('#push').onclick = function(){
                 </button>
             </div>
         `;
+        document.getElementById('add-task').value = '';
 
         var current_tasks = document.querySelectorAll(".delete");
         for(var i=0; i<current_tasks.length; i++){
